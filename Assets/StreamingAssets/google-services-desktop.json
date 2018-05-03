@@ -1,0 +1,37 @@
+{
+  "client": [
+    {
+      "services": {
+        "appinvite_service": {
+          "status": 0
+        }, 
+        "analytics_service": {
+          "status": 0
+        }
+      }, 
+      "oauth_client": [
+        {
+          "client_id": "819766938889-b6ncm5tog2nrg3bdg2rshm1c709ttj94.apps.googleusercontent.com"
+        }
+      ], 
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK3OhPKGnhHjqdpD-vybTStVLaHPw41-I"
+        }
+      ], 
+      "client_info": {
+        "mobilesdk_app_id": "1:819766938889:ios:b9cff0a2a251ea1b", 
+        "android_client_info": {
+          "package_name": "com.Voorheesin.Hugapup"
+        }
+      }
+    }
+  ], 
+  "configuration_version": "1", 
+  "project_info": {
+    "storage_bucket": "hugapup-firebase.appspot.com", 
+    "project_id": "hugapup-firebase", 
+    "firebase_url": "https://hugapup-firebase.firebaseio.com", 
+    "project_number": "819766938889"
+  }
+}
