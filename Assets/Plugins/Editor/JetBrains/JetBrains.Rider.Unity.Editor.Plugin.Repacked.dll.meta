@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 015ef18e20f24535830f59eda9e70830
-labels:
-- gvh
-- gvh_dotnet-3.5
-timeCreated: 1500423342
-licenseType: Pro
+guid: 2afad41d498604aaaace8a858ab53eb7
+timeCreated: 1525359553
+licenseType: Free
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -21,7 +18,7 @@ PluginImporter:
   - first:
       Editor: Editor
     second:
-      enabled: 0
+      enabled: 1
       settings:
         DefaultValueInitialized: true
   - first:

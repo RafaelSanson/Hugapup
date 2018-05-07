@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Animator))]
-public class AC_Base : MonoBehaviour {
+public class MovimentSpeedBlender : MonoBehaviour {
 
 	public float interpolationMultiplier = 0.02f;
 	public float maxSpeed = 1f;

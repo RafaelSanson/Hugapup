@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="007b96e6-a194-477e-87e8-8d1a9f9db615" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MovimentSpeedBlender.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirebaseTest.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAuthenticationAdapter.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+              <folding>
+                <marker date="1525543447000" expanded="false" signature="6:66" ph="..." />
+                <marker date="1525543447000" expanded="true" signature="116:422" ph="{...}" />
+                <marker date="1525543447000" expanded="true" signature="181:420" ph="{...}" />
+                <marker date="1525543447000" expanded="true" signature="235:417" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserAuthenticationTest.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <marker date="1525699220000" expanded="true" signature="6:89" ph="..." />
+                <marker date="1525699220000" expanded="true" signature="136:1016" ph="{...}" />
+                <marker date="1525699220000" expanded="true" signature="176:1014" ph="{...}" />
+                <marker date="1525699220000" expanded="true" signature="272:593" ph="{...}" />
+                <marker date="1525699220000" expanded="true" signature="509:547" ph="{...}" />
+                <marker date="1525699220000" expanded="true" signature="677:1011" ph="{...}" />
+                <marker date="1525699220000" expanded="true" signature="915:948" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDAOTest.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDAOTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <marker date="1525701719000" expanded="false" signature="6:146" ph="..." />
+                <marker date="1525701719000" expanded="true" signature="189:649" ph="{...}" />
+                <marker date="1525701719000" expanded="true" signature="282:647" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDAOTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Hugapup/FirebaseTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/IUserAuthentication.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/UserAuthentication.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/FirebaseUserAuthentication.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Models/User.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Boundaries/UserAuthenticationTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/User.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDAOTest.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18903089" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="true" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <marker date="1525543447000" expanded="false" signature="6:66" ph="..." />
+            <marker date="1525543447000" expanded="true" signature="116:422" ph="{...}" />
+            <marker date="1525543447000" expanded="true" signature="181:420" ph="{...}" />
+            <marker date="1525543447000" expanded="true" signature="235:417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1525543447000" expanded="false" signature="6:50" ph="..." />
+            <marker date="1525543447000" expanded="true" signature="100:198" ph="{...}" />
+            <marker date="1525543447000" expanded="true" signature="140:196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <marker date="1525699220000" expanded="true" signature="6:89" ph="..." />
+            <marker date="1525699220000" expanded="true" signature="136:1016" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="176:1014" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="272:593" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="509:547" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="677:1011" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="915:948" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/FirebaseTest.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/FirebaseTest.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/IUserAuthentication.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/FirebaseUserAuthentication.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/UserAuthentication.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Models/User.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Boundaries/UserAuthenticationTest.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <marker date="1525543447000" expanded="false" signature="6:50" ph="..." />
+            <marker date="1525543447000" expanded="true" signature="100:198" ph="{...}" />
+            <marker date="1525543447000" expanded="true" signature="140:196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <marker date="1525543447000" expanded="false" signature="6:66" ph="..." />
+            <marker date="1525543447000" expanded="true" signature="116:422" ph="{...}" />
+            <marker date="1525543447000" expanded="true" signature="181:420" ph="{...}" />
+            <marker date="1525543447000" expanded="true" signature="235:417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <marker date="1525699220000" expanded="true" signature="6:89" ph="..." />
+            <marker date="1525699220000" expanded="true" signature="136:1016" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="176:1014" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="272:593" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="509:547" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="677:1011" ph="{...}" />
+            <marker date="1525699220000" expanded="true" signature="915:948" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDAOTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1525701719000" expanded="false" signature="6:146" ph="..." />
+            <marker date="1525701719000" expanded="true" signature="189:649" ph="{...}" />
+            <marker date="1525701719000" expanded="true" signature="282:647" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
