@@ -7,7 +7,5 @@ namespace Hugapup.API.Implementations.Boundaries
 	{
 
 		Task<FirebaseUser>  Authenticate(User user);
-
-
 	}
 }
