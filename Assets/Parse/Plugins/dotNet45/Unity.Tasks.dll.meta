@@ -3,8 +3,6 @@ guid: bd18eee30834e4f71bded96fd14033a9
 labels:
 - gvh
 - gvh_dotnet-4.5
-timeCreated: 1500423342
-licenseType: Pro
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -25,6 +23,11 @@ PluginImporter:
       settings: {}
   - first:
       '': SamsungTV
+    second:
+      enabled: 1
+      settings: {}
+  - first:
+      '': WiiU
     second:
       enabled: 1
       settings: {}
@@ -101,11 +104,6 @@ PluginImporter:
       settings: {}
   - first:
       WebGL: WebGL
-    second:
-      enabled: 1
-      settings: {}
-  - first:
-      WiiU: WiiU
     second:
       enabled: 1
       settings: {}

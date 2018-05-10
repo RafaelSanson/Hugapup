@@ -1,13 +1,14 @@
-﻿using System;
-
-public class User
+﻿namespace Hugapup.API.Implementations.Models
 {
-    public string email { get; private set; }
-    public string password { get; private set; }
-
-    public User(string email, string password)
+    public class User
     {
-        this.email = email;
-        this.password = password;
+        public string Email {get; }
+        public string Password { get; }
+
+        public User(string email, string password)
+        {
+            Email = email;
+            Password = password;
+        }
     }
 }

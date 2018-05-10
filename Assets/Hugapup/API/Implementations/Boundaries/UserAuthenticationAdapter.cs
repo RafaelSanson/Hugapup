@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Firebase;
 using Firebase.Auth;
+using Hugapup.API.Implementations.Models;
 
 namespace Hugapup.API.Implementations.Boundaries
 {
@@ -10,7 +11,7 @@ namespace Hugapup.API.Implementations.Boundaries
 		{
 			var app = FirebaseApp.DefaultInstance;
 			var firebaseAuth = FirebaseAuth.GetAuth(app);
-			return firebaseAuth.SignInWithEmailAndPasswordAsync(user.email, user.password);
+			return firebaseAuth.SignInWithEmailAndPasswordAsync(user.Email, user.Password);
 		}
 	}
 }

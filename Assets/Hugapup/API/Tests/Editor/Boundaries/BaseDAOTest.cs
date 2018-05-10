@@ -1,74 +1,93 @@
-﻿using Firebase;
+﻿using System.Threading.Tasks;
+using Firebase;
+using Firebase.Database;
 using Firebase.Unity.Editor;
 using NUnit.Framework;
-using UnityEditorInternal;
 using UnityEngine;
 
 namespace Hugapup.API.Tests.Editor.Boundaries
 {
-	[TestFixture]
-	public class BaseDaoTest : MonoBehaviour {
-
-		
-
-		[SetUp]
-		public void SetDatabaseCredentials()
-		{
-			FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://hugapup-firebase.firebaseio.com/");
-			FirebaseApp.DefaultInstance.SetEditorP12FileName("hugapup-8695f00ea8c8.p12");
-			FirebaseApp.DefaultInstance.SetEditorServiceAccountEmail("unitytesting@hugapup-firebase.iam.gserviceaccount.com");
-			FirebaseApp.DefaultInstance.SetEditorP12Password("notasecret");
-			
-			DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
-		}
-
+	public class BaseDaoTest
+	{
 		[Test]
-		public void WhenCreatingAMarkerThenResultMustBeReadable()
-		{
-			var mapMarker = new MapMarker("hame", 0.0045, 0.0055, 123123412);
+		public async void WhenCreatingAMarkerThenResultMustBeReadable()
+		{			
+			var retrievedMapMarker = default(MapMarker);
+			var mapMarker = new MapMarker("myHome", 0.0045, 0.0055, 123123412);
 			IBaseDao<MapMarker> baseDao = new BaseDaoAdapter<MapMarker>();
-			baseDao.Save(mapMarker);
-			var newMapMarker = baseDao.Retrieve();
-			Assert.AreEqual(mapMarker, newMapMarker);
-
+	
+			await baseDao.Save(mapMarker, "mapMarker", mapMarker.Name).ContinueWith(task => {
+				if (task.IsFaulted) {
+					Debug.Log("Save Failed!");
+				}
+				else if (task.IsCompleted) {
+					Debug.Log("Save Completed!");
+				}
+			});
+			
+			await baseDao.Retrieve("mapMarker", mapMarker.Name).ContinueWith(task => {
+				if (task.IsFaulted) {
+				}
+				else if (task.IsCompleted) {
+					var snapshot = task.Result;
+					var filtereDataSnapshot = snapshot.Child("mapMarker").Child(mapMarker.Name);
+					var json = filtereDataSnapshot.GetRawJsonValue();
+					retrievedMapMarker = (MapMarker) JsonUtility.FromJson(json, typeof(MapMarker));
+				}
+			});
+			Assert.AreEqual(mapMarker, retrievedMapMarker);
 		}
 	}
 
-	public interface IBaseDao<T>
+	public interface IBaseDao<in T>
 	{
-		void Save(T saveObject, string parent, string name);
-		T Retrieve();
+		Task Save(T saveObject, string parent, string name);
+		Task<DataSnapshot> Retrieve(string parent, string name);
 	}
 
 	public class BaseDaoAdapter<T> : IBaseDao<T>
 	{
-
-		public void Save(T saveObject, string parent, string name)
+		private readonly DatabaseReference _databaseReference;
+		
+		public BaseDaoAdapter()
 		{
-			string json = JsonUtility.ToJson(saveObject);
+			FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://hugapup-firebase.firebaseio.com/");
+			//FirebaseApp.DefaultInstance.SetEditorP12FileName("hugapup-8695f00ea8c8.p12");
+			//FirebaseApp.DefaultInstance.SetEditorServiceAccountEmail("unitytesting@hugapup-firebase.iam.gserviceaccount.com");
+			//FirebaseApp.DefaultInstance.SetEditorP12Password("notasecret");
+			
+			_databaseReference = FirebaseDatabase.DefaultInstance.RootReference;
+		}
+		
+		public Task Save(T saveObject, string parent, string name)
+		{
+			var json = JsonUtility.ToJson(saveObject);
 
-			mDatabaseRef.Child(parent).Child(name).SetRawJsonValueAsync(json);
+			 return _databaseReference.Child(parent).Child(name).SetRawJsonValueAsync(json);
 		}
 
-		public T Retrieve()
+		public Task<DataSnapshot> Retrieve(string parent, string name)
 		{
-			throw new System.NotImplementedException();
+			var firebaseDatabase = FirebaseDatabase.DefaultInstance;
+			var databaseReference = firebaseDatabase.GetReference(parent);
+			var query = databaseReference.OrderByChild(name).LimitToFirst(1);
+			return query.GetValueAsync();
 		}
 	}
 
 	public class MapMarker
 	{
-		private long timestamp { get; set; }
-		private double y { get; set; }
-		private double x { get; set; }
-		private string name { get; set; }
+		private long Timestamp { get; set; }
+		private double Y { get; set; }
+		private double X { get; set; }
+		public string Name { get; set; }
 		
 		public MapMarker(string name, double x, double y, long timestamp)
 		{
-			this.name = name;
-			this.x = x;
-			this.y = y;
-			this.timestamp = timestamp;
+			this.Name = name;
+			this.X = x;
+			this.Y = y;
+			this.Timestamp = timestamp;
 		}
 	}
 }
