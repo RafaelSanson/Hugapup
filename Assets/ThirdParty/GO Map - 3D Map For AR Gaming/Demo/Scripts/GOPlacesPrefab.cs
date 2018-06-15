@@ -33,16 +33,16 @@ namespace GoMap {
 
 		public IEnumerator getTextureWithUrl (string url) {
 
-			if (goPlaces.iconsCache.Contains(url)) {
-				texture = (Sprite)goPlaces.iconsCache [url];
+			if (goPlaces.IconsCache.Contains(url)) {
+				texture = (Sprite)goPlaces.IconsCache [url];
 				spriteRenderer.sprite = texture;
 				yield break;
 			}
 
 			yield return StartCoroutine (DownloadIcon (url));
 			spriteRenderer.sprite = texture;
-			if (!goPlaces.iconsCache.Contains (url)) {
-				goPlaces.iconsCache.Add (url, texture);
+			if (!goPlaces.IconsCache.Contains (url)) {
+				goPlaces.IconsCache.Add (url, texture);
 			}
 			yield return null;
 		}

@@ -16,116 +16,74 @@ namespace GoMap
 
 	public class GOPlaces : MonoBehaviour {
 
-		public GOMap goMap;
-		public string googleAPIkey;
-		public string type;
-		public GameObject prefab;
-		public bool addGOPlaceComponent = false;
+		public GOMap GoMap;
+		public string GoogleApIkey;
+		public string Type;
+		public string Keyword;
+		public GameObject Prefab;
 
+		private Hashtable _markers;
 
-		string nearbySearchUrl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
-		[HideInInspector] public IDictionary iconsCache = new Dictionary <string,Sprite>();
+		private const string NearbySearchUrl = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
+		[HideInInspector] public IDictionary IconsCache = new Dictionary <string,Sprite>();
 
-		// Use this for initialization
-		void Awake () {
+		private void Start () {
+			_markers = new Hashtable();
+			StartCoroutine(RefreshTiles());
+		}
 
-			if (googleAPIkey.Length == 0) {
-				Debug.LogWarning ("GOPlaces - GOOGLE API KEY IS REQUIRED, GET iT HERE: https://developers.google.com/places/web-service/intro");
-				return;
+		private IEnumerator RefreshTiles()
+		{
+			while (true)
+			{
+				var coords = Manager.Instance.GetCurrentCoordinates();
+				StartCoroutine(NearbySearch(coords, 200f));
+				yield return new WaitForSecondsRealtime(10f);
 			}
-
-			//register to the GOMap event OnTileLoad
-			goMap.OnTileLoad.AddListener ((GOTile) => {
-				OnLoadTile (GOTile);
-			});
-
 		}
-
-		void OnLoadTile (GOTile tile) {
-			StartCoroutine (NearbySearch(tile));
-		}
-
-		IEnumerator NearbySearch (GOTile tile) {
 		
-			//Center of the map tile
-			Coordinates tileCenter = tile.goTile.tileCenter;
 
-			//radius of the request, equals the tile diagonal /2
-			float radius = tile.goTile.diagonalLenght / 2;
+		private IEnumerator NearbySearch (Coordinates center, float radius) {
+			var url =
+				$"{NearbySearchUrl}location={center.latitude},{center.longitude}&radius={radius}&type={Type}&key={GoogleApIkey}&keyword={Keyword}";
 
-			//The complete nearby search url, api key is added at the end
-			string url = nearbySearchUrl + "location="+tile.goTile.tileCenter.latitude+","+tile.goTile.tileCenter.longitude+"&radius="+radius+"&type="+type+"&key="+googleAPIkey;
-
-			//Perform the request
 			var www = new WWW(url);
 			yield return www;
 
-			//Check for errors
-			if (string.IsNullOrEmpty (www.error)) {
+			if (!string.IsNullOrEmpty(www.error)) yield break;
+			
+			var response = www.text;
+			var deserializedResponse = (IDictionary)Json.Deserialize (response);
 
-				string response = www.text;
-				//Deserialize the json response
-				IDictionary deserializedResponse = (IDictionary)Json.Deserialize (response);
+			var results = (IList)deserializedResponse ["results"];
 
-				Debug.Log(string.Format("[GO Places] Tile center: {0} - Request Url {1} - response {2}",tileCenter.toLatLongString(),url,response));
+			foreach (IDictionary result in results) {			
+				var placeID = (string)result["place_id"];
 
-				//That's our list of Places
-				IList results = (IList)deserializedResponse ["results"];
+				if (_markers.ContainsKey(placeID) && _markers[placeID] != null) continue;
 
-				//Create a container for the places and set it as a tile child. In this way when the tile is destroyed it will take also the places with it.
-				GameObject placesContainer = new GameObject ("Places");
-				placesContainer.transform.SetParent (tile.transform);
+				var location = (IDictionary) ((IDictionary) result["geometry"])["location"];
+				var lat = (double) location["lat"];
+				var lng = (double) location["lng"];
+				var coordinates = new Coordinates(lat, lng, 0);
+				
+				var place = Instantiate(Prefab);
+				var position = coordinates.convertCoordinateToVector(0);
 
-				foreach (IDictionary result in results) {
+				place.transform.localPosition = position;
+				place.transform.SetParent(transform);
+				place.name = placeID;
 
-					string placeID = (string)result["place_id"];
-					string name = (string)result["name"];
-
-					IDictionary location = (IDictionary)((IDictionary)result ["geometry"])["location"];
-					double lat = (double)location ["lat"];
-					double lng = (double)location ["lng"];
-
-					//Create a new coordinate object, with the desired lat lon
-					Coordinates coordinates = new Coordinates (lat, lng,0);
-
-					if (!TileFilter (tile, coordinates))
-						continue;
-
-					//Instantiate your game object
-					GameObject place = GameObject.Instantiate (prefab);
-					place.SetActive (true);
-					//Convert coordinates to position
-					Vector3 position = coordinates.convertCoordinateToVector(place.transform.position.y);
-
-					if (goMap.useElevation)
-						position = GOMap.AltitudeToPoint (position);
-
-					//Set the position to object
-					place.transform.localPosition = position;
-					//the parent
-					place.transform.SetParent (placesContainer.transform);
-					//and the name
-					place.name = (name != null && name.Length>0)? name:placeID;
-
-					if (addGOPlaceComponent) {
-						GOPlacesPrefab component = place.AddComponent<GOPlacesPrefab> ();
-						component.placeInfo = result;
-						component.goPlaces = this;
-					}
-				}
+				if (_markers.Contains(placeID))
+					_markers[placeID] = place;
+				else
+					_markers.Add(placeID, place);
 			}
+			
+			
 		}
-
-		bool TileFilter (GOTile tile, Coordinates coordinates) {
 		
-			Vector2 tileCoordinates = coordinates.tileCoordinates (goMap.zoomLevel);
-
-			if (tile.goTile.tileCoordinates.Equals (tileCoordinates))
-				return true;
-
-//			Debug.LogWarning ("Coordinates outside the tile");
-			return false;
-		
-		}
 	}
 }
+
+

@@ -30,5 +30,11 @@ namespace Hugapup.API.Tests.Editor.Boundaries
 			});
 			Assert.AreEqual(newUser.Email, "rafael@voorhees.in");
 		}
+
+		[Test]
+		public void ShouldAlwaysFail()
+		{
+			Assert.AreEqual(true, true);
+		}
 	}
 }

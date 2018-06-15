@@ -11,124 +11,268 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MovimentSpeedBlender.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirebaseTest.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAuthenticationAdapter.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <marker date="1525920485000" expanded="true" signature="6:108" ph="..." />
-                <marker date="1525920485000" expanded="true" signature="158:464" ph="{...}" />
-                <marker date="1525920485000" expanded="true" signature="223:462" ph="{...}" />
-                <marker date="1525920485000" expanded="true" signature="277:459" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/User.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAuthentication.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-              <folding>
-                <marker date="1525926331000" expanded="true" signature="6:92" ph="..." />
-                <marker date="1525926331000" expanded="true" signature="142:236" ph="{...}" />
-                <marker date="1525926331000" expanded="true" signature="182:234" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserAuthenticationTest.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-              <folding>
-                <marker date="1525916300000" expanded="true" signature="6:131" ph="..." />
-                <marker date="1525916300000" expanded="true" signature="178:1058" ph="{...}" />
-                <marker date="1525916300000" expanded="true" signature="218:1056" ph="{...}" />
-                <marker date="1525916300000" expanded="true" signature="314:635" ph="{...}" />
-                <marker date="1525916300000" expanded="true" signature="551:589" ph="{...}" />
-                <marker date="1525916300000" expanded="true" signature="719:1053" ph="{...}" />
-                <marker date="1525916300000" expanded="true" signature="957:990" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BaseDaoTest.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
+            <state relative-caret-position="72">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding>
-                <marker date="1525926201000" expanded="true" signature="6:141" ph="..." />
-                <marker date="1525926201000" expanded="true" signature="188:2776" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="216:1191" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="294:1188" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="572:716" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="598:637" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="669:711" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="799:1131" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="825:832" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="864:1126" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="1225:1345" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="1392:2442" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="1481:1934" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="1586:1854" ph="/* FirebaseApp.DefaultInstance.SetEditorP12FileName(&quot;hugapup-8695f00ea8c8.p12&quot;); ... */" />
-                <marker date="1525926201000" expanded="true" signature="1998:2137" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="2203:2439" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="2467:2774" ph="{...}" />
-                <marker date="1525926201000" expanded="true" signature="2681:2771" ph="{...}" />
+                <marker date="1529091082000" expanded="false" signature="6:86" ph="..." />
+                <marker date="1529091082000" expanded="true" signature="133:1977" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="164:1975" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="221:646" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="350:636" ph="/* FirebaseApp.DefaultInstance.SetEditorP12FileName(&quot;hugapup-8695f00ea8c8.p12&quot;); ... */" />
+                <marker date="1529091082000" expanded="true" signature="742:1969" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="1039:1317" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="1089:1174" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="1217:1303" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="1403:1895" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="1453:1489" ph="{...}" />
+                <marker date="1529091082000" expanded="true" signature="1532:1881" ph="{...}" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OverlayHUD.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/OverlayHUD.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1529095129000" expanded="true" signature="6:61" ph="..." />
+                <marker date="1529095129000" expanded="true" signature="103:304" ph="{...}" />
+                <marker date="1529095129000" expanded="true" signature="134:302" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GOPlaces.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Demo/Scripts/GOPlaces.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <marker date="1529100993000" expanded="false" signature="6:359" ph="..." />
+                <marker date="1529100993000" expanded="true" signature="46:273" ph="/* This class uses Google Places webservice API. ... */" />
+                <marker date="1529100993000" expanded="true" signature="377:2335" ph="{...}" />
+                <marker date="1529100993000" expanded="true" signature="420:2333" ph="{...}" />
+                <marker date="1529100993000" expanded="true" signature="799:870" ph="{...}" />
+                <marker date="1529100993000" expanded="true" signature="908:1099" ph="{...}" />
+                <marker date="1529100993000" expanded="true" signature="928:1095" ph="{...}" />
+                <marker date="1529100993000" expanded="true" signature="1174:2327" ph="{...}" />
+                <marker date="1529100993000" expanded="true" signature="1636:2315" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonoBehaviour.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD697842-2995-4C31-B707-2F79E4886BE6/d8/383944b0/MonoBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SetupCoroutine.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD697842-2995-4C31-B707-2F79E4886BE6/c3/f272d928/SetupCoroutine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GOTileObj.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Core/Map Builders/GOMapObjects/GOTileObj.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <marker date="1529096344000" expanded="false" signature="6:156" ph="..." />
+                <marker date="1529096344000" expanded="true" signature="174:16692" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="217:16690" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="725:787" ph="{...}" />
+                <marker date="1529096344000" expanded="false" signature="1985:3821" ph="Constructors" />
+                <marker date="1529096344000" expanded="true" signature="2356:3513" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="3601:3807" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="3624:3769" ph="{...}" />
+                <marker date="1529096344000" expanded="false" signature="3825:4015" ph="static" />
+                <marker date="1529096344000" expanded="true" signature="3923:4001" ph="{...}" />
+                <marker date="1529096344000" expanded="false" signature="4019:11928" ph="Terrain" />
+                <marker date="1529096344000" expanded="true" signature="4064:4200" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="4237:4521" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="4341:4373" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="4402:4499" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="4562:9214" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="5231:6015" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="5284:6010" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="5710:5886" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="6076:7063" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="6130:7058" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="6211:6330" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="6397:6548" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="6632:6782" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="6852:7041" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="7245:9030" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="7304:9025" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="8021:8146" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="8391:8697" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="8481:8619" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="8788:9019" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="8878:9012" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="9309:9601" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="9312:9527" ph="/* point = local.position + local.rotation * Vector3.Scale (Vector3.one, point); ... */" />
+                <marker date="1529096344000" expanded="true" signature="9634:9779" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="9719:9754" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="9829:9945" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="9996:10182" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="10184:10444" ph="/* public Vector3 rayAltitudeToPoint (Vector3 point) { ... */" />
+                <marker date="1529096344000" expanded="true" signature="10498:10803" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="10853:11044" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="10988:11018" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="11087:11293" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="11341:11664" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="11729:11914" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="11800:11846" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="11867:11893" ph="{...}" />
+                <marker date="1529096344000" expanded="false" signature="11932:14645" ph="Load Data" />
+                <marker date="1529096344000" expanded="true" signature="11985:12129" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12028:12109" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12202:12687" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12235:12272" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12315:12683" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12391:12676" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12433:12595" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12517:12588" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12596:12670" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12745:13228" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12776:12799" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12842:13166" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12915:13159" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="12957:13098" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13041:13091" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13099:13153" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13265:13412" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13309:13392" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13450:13602" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13494:13582" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13646:13872" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13735:13852" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13916:14068" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="13960:14048" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="14114:14269" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="14159:14249" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="14313:14631" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="14335:14567" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="14431:14516" ph="{...}" />
+                <marker date="1529096344000" expanded="false" signature="14649:15856" ph="Utils" />
+                <marker date="1529096344000" expanded="true" signature="14718:15605" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="14791:15601" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="14807:15132" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="15198:15319" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="15277:15313" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="15335:15596" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="15637:15724" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="15755:15842" ph="{...}" />
+                <marker date="1529096344000" expanded="false" signature="15860:16687" ph="Debug" />
+                <marker date="1529096344000" expanded="true" signature="15909:16673" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="16113:16371" ph="{...}" />
+                <marker date="1529096344000" expanded="true" signature="16373:16668" ph="/* Spheres ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/Manager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
+              <folding>
+                <marker date="1529095124000" expanded="false" signature="6:77" ph="..." />
+                <marker date="1529095124000" expanded="true" signature="115:585" ph="{...}" />
+                <marker date="1529095124000" expanded="true" signature="180:317" ph="{...}" />
+                <marker date="1529095124000" expanded="true" signature="258:311" ph="{...}" />
+                <marker date="1529095124000" expanded="true" signature="365:476" ph="{...}" />
+                <marker date="1529095124000" expanded="true" signature="527:583" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MapMarker.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/MapMarker.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+              <folding>
+                <marker date="1529098646000" expanded="true" signature="6:34" ph="..." />
+                <marker date="1529098646000" expanded="true" signature="81:952" ph="{...}" />
+                <marker date="1529098646000" expanded="true" signature="110:950" ph="{...}" />
+                <marker date="1529098646000" expanded="true" signature="355:473" ph="{...}" />
+                <marker date="1529098646000" expanded="true" signature="683:944" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/Repository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <marker date="1529095102000" expanded="false" signature="6:106" ph="..." />
+                <marker date="1529095102000" expanded="true" signature="138:683" ph="{...}" />
+                <marker date="1529095102000" expanded="true" signature="351:437" ph="{...}" />
+                <marker date="1529095102000" expanded="true" signature="493:681" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/AR/LocationManager.cs">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CreateMapMarker</find>
+    </findStrings>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Core/Map Builders/GOMapObjects/GOMap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E47BAC6-9379-46EE-BBA4-122B1CB740DF/4e/5dea280d/FirebaseAuth.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/Decoders/Mapbox/vector-tile-cs-master/Utils/SharpZipLib/GzipInputStream.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/Helpers/Poly2Mesh/Poly2Mesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/OverlayHUD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/Decoders/Mapbox/vector-tile-cs-master/Utils/SharpZipLib/Core/Checksum/BZip2Crc.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/Helpers/Poly2Mesh/Poly2Mesh.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/Manager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Core/Map Builders/GOMapObjects/GOMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Core/Map Builders/GOMapObjects/GOTileObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/AR/LocationManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/Decoders/Mapbox/vector-tile-cs-master/Utils/SharpZipLib/GzipInputStream.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Demo/Scripts/GOPlaces.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/BaseDaoAdapter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Demo/Scripts/GOPlacesPrefab.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD697842-2995-4C31-B707-2F79E4886BE6/c3/f272d928/SetupCoroutine.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A3420D58-FB34-42DA-B856-44B15901DDFE/08/fd9fe140/ActionDelegator.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E47BAC6-9379-46EE-BBA4-122B1CB740DF/4e/5dea280d/FirebaseAuth.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD697842-2995-4C31-B707-2F79E4886BE6/d8/383944b0/MonoBehaviour.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA7740F2-AD75-458F-AAFE-D0932E889E68/b0/13c7f173/EditModeRunner.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/MapMarker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/Decoders/Mapbox/vector-tile-cs-master/Utils/SharpZipLib/Core/Checksum/BZip2Crc.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -141,12 +285,25 @@
         <option value="$PROJECT_DIR$/Assets/Hugapup/API/Models/User.cs" />
         <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Boundaries/UserAuthenticationTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDAOTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/User.cs" />
         <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs" />
         <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs" />
+        <option value="$PROJECT_DIR$/Assets/GOPlaces_new.cs" />
+        <option value="$PROJECT_DIR$/Assets/OverlayHUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/MapMarker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/IBaseDao.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoAdapter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/IBaseDao.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/BaseDaoAdapter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/Scripts/Repository.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/Scripts/OverlayHUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Core/Map Builders/GOMapObjects/GOTileObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/MapMarker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Hugapup/Scripts/Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Demo/Scripts/GOPlaces.cs" />
       </list>
     </option>
   </component>
@@ -159,75 +316,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="References" type="aaba791b:UnityExplorerNode$ReferenceRoot" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Hugapup" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
             </path>
             <path>
               <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -245,15 +343,13 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="repo&#9;FILE&#9;file:///Users/rafael/Desktop/Hugapup/Assets/Hugapup/Scripts/Repository.cs" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
   </component>
   <component name="RunDashboard">
@@ -268,14 +364,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach Unity.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="1136">
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="1136" />
     </configuration>
-    <list>
-      <item itemvalue="Attach Unity.Attach to Unity Editor" />
-    </list>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,20 +383,18 @@
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19275825" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32935324" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19062833" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" weight="0.32935324" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32935324" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32935324" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40298507" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,158 +402,71 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Build" order="8" visible="true" weight="0.32935324" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="UnityProjectConfiguration" isUnityUI="true" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs" initialLine="12">
+            <startOffsets>
+              <startOffset value="244" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="337" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs" initialLine="38">
+            <startOffsets>
+              <startOffset value="1333" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1897" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs</url>
+          <line>53</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs" initialLine="53">
+            <startOffsets>
+              <startOffset value="1912" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1959" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs" initialLine="26">
+            <startOffsets>
+              <startOffset value="978" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1319" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding>
-            <marker date="1525916300000" expanded="true" signature="6:131" ph="..." />
-            <marker date="1525916300000" expanded="true" signature="178:1058" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="218:1056" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="314:635" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="551:589" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="719:1053" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="957:990" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <marker date="1525926331000" expanded="true" signature="6:92" ph="..." />
-            <marker date="1525926331000" expanded="true" signature="142:236" ph="{...}" />
-            <marker date="1525926331000" expanded="true" signature="182:234" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding>
-            <marker date="1525926201000" expanded="true" signature="6:141" ph="..." />
-            <marker date="1525926201000" expanded="true" signature="188:2776" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="216:1191" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="294:1188" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="572:716" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="598:637" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="669:711" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="799:1131" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="825:832" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="864:1126" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1225:1345" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1392:2442" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1481:1934" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1586:1854" ph="/* FirebaseApp.DefaultInstance.SetEditorP12FileName(&quot;hugapup-8695f00ea8c8.p12&quot;); ... */" />
-            <marker date="1525926201000" expanded="true" signature="1998:2137" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2203:2439" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2467:2774" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2681:2771" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <marker date="1525920485000" expanded="true" signature="6:108" ph="..." />
-            <marker date="1525920485000" expanded="true" signature="158:464" ph="{...}" />
-            <marker date="1525920485000" expanded="true" signature="223:462" ph="{...}" />
-            <marker date="1525920485000" expanded="true" signature="277:459" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding>
-            <marker date="1525920485000" expanded="true" signature="6:108" ph="..." />
-            <marker date="1525920485000" expanded="true" signature="158:464" ph="{...}" />
-            <marker date="1525920485000" expanded="true" signature="223:462" ph="{...}" />
-            <marker date="1525920485000" expanded="true" signature="277:459" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthentication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <marker date="1525926331000" expanded="true" signature="6:92" ph="..." />
-            <marker date="1525926331000" expanded="true" signature="142:236" ph="{...}" />
-            <marker date="1525926331000" expanded="true" signature="182:234" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <marker date="1525916300000" expanded="true" signature="6:131" ph="..." />
-            <marker date="1525916300000" expanded="true" signature="178:1058" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="218:1056" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="314:635" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="551:589" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="719:1053" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="957:990" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/FirebaseTest.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/FirebaseTest.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/IUserAuthentication.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/FirebaseUserAuthentication.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Boundaries/UserAuthentication.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Models/User.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Boundaries/UserAuthenticationTest.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Characters/Scripts/MovimentSpeedBlender.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -490,24 +494,18 @@
         <state relative-caret-position="140">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
           <folding>
-            <marker date="1525926201000" expanded="true" signature="6:141" ph="..." />
-            <marker date="1525926201000" expanded="true" signature="188:2776" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="216:1191" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="294:1188" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="572:716" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="598:637" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="669:711" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="799:1131" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="825:832" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="864:1126" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1225:1345" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1392:2442" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1481:1934" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1586:1854" ph="/* FirebaseApp.DefaultInstance.SetEditorP12FileName(&quot;hugapup-8695f00ea8c8.p12&quot;); ... */" />
-            <marker date="1525926201000" expanded="true" signature="1998:2137" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2203:2439" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2467:2774" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2681:2771" ph="{...}" />
+            <marker date="1529091082000" expanded="false" signature="6:86" ph="..." />
+            <marker date="1529091082000" expanded="true" signature="133:1977" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="164:1975" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="221:646" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="350:636" ph="/* FirebaseApp.DefaultInstance.SetEditorP12FileName(&quot;hugapup-8695f00ea8c8.p12&quot;); ... */" />
+            <marker date="1529091082000" expanded="true" signature="742:1969" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1039:1317" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1089:1174" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1217:1303" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1403:1895" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1453:1489" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1532:1881" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -517,13 +515,14 @@
         <state relative-caret-position="435">
           <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
           <folding>
-            <marker date="1525916300000" expanded="true" signature="6:131" ph="..." />
-            <marker date="1525916300000" expanded="true" signature="178:1058" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="218:1056" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="314:635" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="551:589" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="719:1053" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="957:990" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="6:131" ph="..." />
+            <marker date="1529079187000" expanded="true" signature="178:1141" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="218:1139" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="314:635" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="551:589" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="719:1053" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="957:990" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="1096:1136" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -545,7 +544,7 @@
         <state relative-caret-position="135">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding>
-            <marker date="1525920485000" expanded="true" signature="6:108" ph="..." />
+            <marker date="1525920485000" expanded="false" signature="6:108" ph="..." />
             <marker date="1525920485000" expanded="true" signature="158:464" ph="{...}" />
             <marker date="1525920485000" expanded="true" signature="223:462" ph="{...}" />
             <marker date="1525920485000" expanded="true" signature="277:459" ph="{...}" />
@@ -572,7 +571,7 @@
         <state relative-caret-position="165">
           <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding>
-            <marker date="1525920485000" expanded="true" signature="6:108" ph="..." />
+            <marker date="1525920485000" expanded="false" signature="6:108" ph="..." />
             <marker date="1525920485000" expanded="true" signature="158:464" ph="{...}" />
             <marker date="1525920485000" expanded="true" signature="223:462" ph="{...}" />
             <marker date="1525920485000" expanded="true" signature="277:459" ph="{...}" />
@@ -597,13 +596,14 @@
         <state relative-caret-position="765">
           <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
-            <marker date="1525916300000" expanded="true" signature="6:131" ph="..." />
-            <marker date="1525916300000" expanded="true" signature="178:1058" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="218:1056" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="314:635" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="551:589" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="719:1053" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="957:990" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="6:131" ph="..." />
+            <marker date="1529079187000" expanded="true" signature="178:1141" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="218:1139" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="314:635" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="551:589" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="719:1053" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="957:990" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="1096:1136" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -622,17 +622,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/User.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1525919612000" expanded="true" signature="44:290" ph="{...}" />
+            <marker date="1525919612000" expanded="true" signature="68:288" ph="{...}" />
+            <marker date="1525919612000" expanded="true" signature="202:282" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -647,128 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <marker date="1523274138000" expanded="false" signature="6:219" ph="..." />
-            <marker date="1523274138000" expanded="true" signature="256:17908" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="316:17629" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="986:1041" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="1921:4603" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="2110:2282" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="2366:2497" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="2567:2767" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="2837:2984" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="3009:3059" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="3171:3291" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="3394:3542" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="3627:3762" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="3908:4116" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="4161:4296" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="4553:4596" ph="{...}" />
-            <marker date="1523274138000" expanded="false" signature="4608:5211" ph="Location Manager Events" />
-            <marker date="1523274138000" expanded="true" signature="4703:4875" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="4773:4817" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="4933:5197" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="5095:5139" ph="{...}" />
-            <marker date="1523274138000" expanded="false" signature="5215:9297" ph="GoMap Load" />
-            <marker date="1523274138000" expanded="true" signature="5303:6620" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="5327:5350" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="5765:6206" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="5828:6201" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="6139:6195" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="6245:6432" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="6659:6883" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="6765:6857" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="6805:6852" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="6941:7574" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="6951:7493" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="7041:7134" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="7222:7328" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="7286:7322" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="7375:7488" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="7515:7548" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="7640:7747" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="7811:9226" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="8272:8413" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="8470:8619" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="8666:8797" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="8837:8891" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="8891:8950" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="9256:9283" ph="{...}" />
-            <marker date="1523274138000" expanded="false" signature="9301:14523" ph="Utils" />
-            <marker date="1523274138000" expanded="true" signature="9377:9539" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="9654:9757" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="9955:10293" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="10059:10206" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="10495:11147" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="10908:11003" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="11358:11767" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="11459:11606" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="11651:11683" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="11961:12669" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="12396:12491" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="12726:13065" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="13015:13045" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="13120:13191" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="13252:13486" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="13435:13462" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="13531:13850" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="13909:14048" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="14004:14027" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="14087:14507" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="14128:14238" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="14173:14233" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="14329:14347" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="14389:14503" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="14438:14498" ph="{...}" />
-            <marker date="1523274138000" expanded="false" signature="14527:15174" ph="Temporary Tile Background" />
-            <marker date="1523274138000" expanded="true" signature="14609:15017" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="15068:15160" ph="{...}" />
-            <marker date="1523274138000" expanded="false" signature="15178:16197" ph="GoTerrain Link" />
-            <marker date="1523274138000" expanded="true" signature="15315:16183" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="15733:16157" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="15801:15918" ph="/* tile.gameObject.transform.position = tile.goTile.tileCenter.convertCoordinateToVector(); ... */" />
-            <marker date="1523274138000" expanded="true" signature="15952:15993" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="16115:16152" ph="{...}" />
-            <marker date="1523274138000" expanded="false" signature="16201:16469" ph="CacheControl" />
-            <marker date="1523274138000" expanded="true" signature="16250:16323" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="16359:16455" ph="{...}" />
-            <marker date="1523274138000" expanded="false" signature="16473:17626" ph="Editor Map Builder" />
-            <marker date="1523274138000" expanded="true" signature="16536:17217" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="16925:17056" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="17250:17613" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="17440:17597" ph="{...}" />
-            <marker date="1523274138000" expanded="false" signature="17635:17906" ph="Events" />
-            <marker date="1523274138000" expanded="true" signature="17732:17738" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="17816:17822" ph="{...}" />
-            <marker date="1523274138000" expanded="true" signature="17888:17894" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
-          <folding>
-            <marker date="1525926201000" expanded="true" signature="6:141" ph="..." />
-            <marker date="1525926201000" expanded="true" signature="188:2776" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="216:1191" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="294:1188" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="572:716" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="598:637" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="669:711" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="799:1131" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="825:832" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="864:1126" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1225:1345" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1392:2442" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1481:1934" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="1586:1854" ph="/* FirebaseApp.DefaultInstance.SetEditorP12FileName(&quot;hugapup-8695f00ea8c8.p12&quot;); ... */" />
-            <marker date="1525926201000" expanded="true" signature="1998:2137" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2203:2439" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2467:2774" ph="{...}" />
-            <marker date="1525926201000" expanded="true" signature="2681:2771" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,35 +652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <marker date="1523274273000" expanded="true" signature="57:7602" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="61:1628" ph="/// CRC-32 with unreversed data and reversed output ... " />
-            <marker date="1523274273000" expanded="true" signature="1670:7600" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="1676:5197" ph="Instance Fields" />
-            <marker date="1523274273000" expanded="true" signature="1826:5094" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="5099:5165" ph="/// The CRC data checksum so far. ... " />
-            <marker date="1523274273000" expanded="true" signature="5201:5299" ph="/// Initialise a default instance of &lt;see cref=&quot;BZip2Crc&quot;&gt;&lt;/see&gt; ... " />
-            <marker date="1523274273000" expanded="true" signature="5319:5339" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="5343:5441" ph="/// Resets the CRC data checksum as if no update was ever called. ... " />
-            <marker date="1523274273000" expanded="true" signature="5463:5496" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="5500:5628" ph="/// Returns the CRC data checksum computed so far. ... " />
-            <marker date="1523274273000" expanded="true" signature="5649:5863" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="5658:5859" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="5664:5822" ph="/* Tehcnically, the output should be: ... */" />
-            <marker date="1523274273000" expanded="true" signature="5867:6085" ph="/// Updates the checksum with the int bval. ... " />
-            <marker date="1523274273000" expanded="true" signature="6116:6225" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="6229:6422" ph="/// Updates the CRC data checksum with the bytes taken from  ... " />
-            <marker date="1523274273000" expanded="true" signature="6458:6593" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="6486:6551" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="6597:6946" ph="/// Update CRC data checksum based on a portion of a block of data ... " />
-            <marker date="1523274273000" expanded="true" signature="7005:7597" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="7033:7098" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="7119:7196" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="7230:7312" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="7332:7408" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="7449:7520" ph="{...}" />
-            <marker date="1523274273000" expanded="true" signature="7557:7593" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,70 +659,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
           <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-          <folding>
-            <marker date="1523274073000" expanded="false" signature="6:172" ph="..." />
-            <marker date="1523274073000" expanded="true" signature="212:10425" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="217:1049" ph="/// This filter stream is used to decompress a &quot;GZIP&quot; format stream. ... " />
-            <marker date="1523274073000" expanded="true" signature="1101:10423" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="1107:1738" ph="Instance Fields" />
-            <marker date="1523274073000" expanded="true" signature="1133:1204" ph="/// CRC-32 value for uncompressed data ... " />
-            <marker date="1523274073000" expanded="true" signature="1231:1424" ph="/// Flag to indicate if we've read the GZIP header yet for the current member (block of compressed data). ... " />
-            <marker date="1523274073000" expanded="true" signature="1457:1692" ph="/// Flag to indicate if at least one block in a stream with concatenated blocks was read successfully. ... " />
-            <marker date="1523274073000" expanded="false" signature="1742:2505" ph="Constructors" />
-            <marker date="1523274073000" expanded="true" signature="1765:1984" ph="/// Creates a GZipInputStream with the default buffer size ... " />
-            <marker date="1523274073000" expanded="true" signature="2066:2074" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="2078:2372" ph="/// Creates a GZIPInputStream with the specified buffer size ... " />
-            <marker date="1523274073000" expanded="true" signature="2484:2492" ph="{...}" />
-            <marker date="1523274073000" expanded="false" signature="2509:4609" ph="Stream overrides" />
-            <marker date="1523274073000" expanded="true" signature="2536:2973" ph="/// Reads uncompressed data into an array of bytes ... " />
-            <marker date="1523274073000" expanded="true" signature="3038:4596" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="3046:3251" ph="/* A GZIP file can contain multiple blocks of compressed data, although this is quite rare. ... */" />
-            <marker date="1523274073000" expanded="true" signature="3268:4592" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="3357:4262" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="3380:3545" ph="/* Try to read header. If there is no header (0 bytes available), this is EOF. If there is ... */" />
-            <marker date="1523274073000" expanded="true" signature="3569:3746" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="3634:3724" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="3891:4244" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="3917:4188" ph="/* if we completed the last block (i.e. we're in a stream that has multiple blocks concatenated ... */" />
-            <marker date="1523274073000" expanded="true" signature="4376:4427" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="4506:4532" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="4557:4587" ph="{...}" />
-            <marker date="1523274073000" expanded="false" signature="4613:10420" ph="Support routines" />
-            <marker date="1523274073000" expanded="true" signature="4657:8913" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="4724:4944" ph="/* Make sure there is data in file. We can't rely on ReadLeByte() to fill the buffer, as this could be EOF, ... */" />
-            <marker date="1523274073000" expanded="true" signature="4980:5097" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="5042:5092" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="5224:5295" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="5372:5474" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="5573:5656" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="5709:5801" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="5958:6029" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="6060:6146" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="6268:6339" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="6370:6590" ph="/* This flag byte is divided into individual bits as follows: ... */" />
-            <marker date="1523274073000" expanded="true" signature="6664:6743" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="6841:7018" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="6910:6983" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="7090:7710" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="7291:7364" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="7522:7705" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="7593:7668" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="7779:8023" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="7853:7891" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="7915:7988" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="8093:8338" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="8167:8205" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="8229:8302" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="8409:8866" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="8492:8565" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="8630:8703" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="8793:8861" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="8934:10407" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="9259:9473" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="9358:9431" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="9641:9759" ph="{...}" />
-            <marker date="1523274073000" expanded="true" signature="10029:10104" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,73 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="242" column="17" lean-forward="true" selection-start-line="242" selection-start-column="17" selection-end-line="242" selection-end-column="17" />
-          <folding>
-            <marker date="1523274100000" expanded="true" signature="0:755" ph="/* Poly2Mesh ... */" />
-            <marker date="1523274100000" expanded="false" signature="763:886" ph="..." />
-            <marker date="1523274100000" expanded="true" signature="918:16054" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="1006:4161" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="1683:1760" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="1764:1906" ph="/// Calculates the plane normal for this polygon (with no flipping). ... " />
-            <marker date="1523274100000" expanded="true" signature="1939:2576" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="1944:2133" ph="/* Calculate the plane normal by summing the cross product of ... */" />
-            <marker date="1523274100000" expanded="true" signature="2239:2377" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="2381:2530" ph="/* Now, sum is a vector that points in the normal direction with proper ... */" />
-            <marker date="1523274100000" expanded="true" signature="2580:2802" ph="/// Calculates the plane normal for this polygon, trying to face the given direction. ... " />
-            <marker date="1523274100000" expanded="true" signature="2847:3074" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="3032:3070" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="3078:3184" ph="/// Calculates the rotation needed to get this polygon into the XY plane. ... " />
-            <marker date="1523274100000" expanded="true" signature="3214:3521" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="3310:3433" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="3563:4158" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="3695:3835" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="3772:3830" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="3873:4136" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="3991:4131" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="4067:4125" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="4164:4618" ph="/// Helper method to convert a set of 3D points into the 2D polygon points ... " />
-            <marker date="1523274100000" expanded="true" signature="4745:5167" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="4866:5147" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="5170:5357" ph="/// Create a Mesh from a given Polygon. ... " />
-            <marker date="1523274100000" expanded="true" signature="5406:8765" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="5411:5514" ph="/* long profileID = Profiler.Enter(&quot;Poly2Mesh.CreateMesh&quot;); ... */" />
-            <marker date="1523274100000" expanded="true" signature="5664:5704" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="6422:6521" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="6611:6741" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="6769:6817" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="6821:7103" ph="/* Now, to get back to our original positions, use our code-to-position map.  We do ... */" />
-            <marker date="1523274100000" expanded="true" signature="7299:7924" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="7332:7920" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="7518:7890" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="7525:7756" ph="/* This can happen in rare cases when we're hitting limits of floating-point precision. ... */" />
-            <marker date="1523274100000" expanded="true" signature="8079:8253" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="8394:8533" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="8477:8529" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="8769:9017" ph="/// [ALAN GRANT] Create data for a Mesh using a background thread for the non-unity part of the job. ... " />
-            <marker date="1523274100000" expanded="true" signature="9080:12386" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="9085:9188" ph="/* long profileID = Profiler.Enter(&quot;Poly2Mesh.CreateMesh&quot;); ... */" />
-            <marker date="1523274100000" expanded="true" signature="9332:9400" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="10118:10217" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="10307:10437" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="10465:10516" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="10520:10802" ph="/* Now, to get back to our original positions, use our code-to-position map.  We do ... */" />
-            <marker date="1523274100000" expanded="true" signature="10998:11628" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="11031:11624" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="11217:11594" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="11224:11460" ph="/* This can happen in rare cases when we're hitting limits of floating-point precision. ... */" />
-            <marker date="1523274100000" expanded="true" signature="11781:11955" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="12096:12235" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="12179:12231" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="12429:12725" ph="/// Create a Mesh containing just the FIRST triangle in the given Polygon. ... " />
-            <marker date="1523274100000" expanded="true" signature="12778:13853" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="13348:13455" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="13401:13451" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="13856:14188" ph="/// [ALAN GRANT] Create data for a Mesh in background containing just the FIRST triangle in the given Polygon. ... " />
-            <marker date="1523274100000" expanded="true" signature="14255:15302" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="14827:14934" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="14880:14930" ph="{...}" />
-            <marker date="1523274100000" expanded="true" signature="15305:15741" ph="/// Create a GameObject from the given polygon.  The resulting object will ... " />
-            <marker date="1523274100000" expanded="true" signature="15825:16052" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -965,31 +681,334 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/OverlayHUD.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+        <state relative-caret-position="75">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/FirebaseTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
-            <marker date="1525916300000" expanded="true" signature="6:131" ph="..." />
-            <marker date="1525916300000" expanded="true" signature="178:1058" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="218:1056" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="314:635" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="551:589" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="719:1053" ph="{...}" />
-            <marker date="1525916300000" expanded="true" signature="957:990" ph="{...}" />
+            <marker date="1525543956000" expanded="false" signature="6:70" ph="..." />
+            <marker date="1525543956000" expanded="true" signature="97:299" ph="{...}" />
+            <marker date="1525543956000" expanded="true" signature="143:297" ph="{...}" />
+            <marker date="1525543956000" expanded="true" signature="203:294" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/UserAuthenticationAdapter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
-            <marker date="1525920485000" expanded="true" signature="6:108" ph="..." />
+            <marker date="1525920485000" expanded="false" signature="6:108" ph="..." />
             <marker date="1525920485000" expanded="true" signature="158:464" ph="{...}" />
             <marker date="1525920485000" expanded="true" signature="223:462" ph="{...}" />
             <marker date="1525920485000" expanded="true" signature="277:459" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/GOPlaces_new.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/MapMarker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CA7740F2-AD75-458F-AAFE-D0932E889E68/b0/13c7f173/EditModeRunner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="166" column="8" selection-start-line="166" selection-start-column="8" selection-end-line="166" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A3420D58-FB34-42DA-B856-44B15901DDFE/08/fd9fe140/ActionDelegator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoAdapter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Demo/Scripts/GOPlacesPrefab.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="43" column="54" selection-start-line="43" selection-start-column="54" selection-end-line="43" selection-end-column="54" />
+          <folding>
+            <marker date="1529097960000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1529097960000" expanded="true" signature="96:1102" ph="{...}" />
+            <marker date="1529097960000" expanded="true" signature="144:1100" ph="{...}" />
+            <marker date="1529097960000" expanded="true" signature="284:478" ph="{...}" />
+            <marker date="1529097960000" expanded="true" signature="529:677" ph="{...}" />
+            <marker date="1529097960000" expanded="true" signature="731:1096" ph="{...}" />
+            <marker date="1529097960000" expanded="true" signature="776:885" ph="{...}" />
+            <marker date="1529097960000" expanded="true" signature="1020:1070" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/IBaseDao.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/UserAuthenticationTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="38" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+          <folding>
+            <marker date="1529079187000" expanded="true" signature="6:131" ph="..." />
+            <marker date="1529079187000" expanded="true" signature="178:1141" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="218:1139" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="314:635" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="551:589" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="719:1053" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="957:990" ph="{...}" />
+            <marker date="1529079187000" expanded="true" signature="1096:1136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/IBaseDao.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Boundaries/BaseDaoAdapter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Tests/Editor/Boundaries/BaseDaoTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <marker date="1529091082000" expanded="false" signature="6:86" ph="..." />
+            <marker date="1529091082000" expanded="true" signature="133:1977" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="164:1975" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="221:646" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="350:636" ph="/* FirebaseApp.DefaultInstance.SetEditorP12FileName(&quot;hugapup-8695f00ea8c8.p12&quot;); ... */" />
+            <marker date="1529091082000" expanded="true" signature="742:1969" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1039:1317" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1089:1174" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1217:1303" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1403:1895" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1453:1489" ph="{...}" />
+            <marker date="1529091082000" expanded="true" signature="1532:1881" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/GOShared/AR/LocationManager.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/OverlayHUD.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1529095129000" expanded="true" signature="6:61" ph="..." />
+            <marker date="1529095129000" expanded="true" signature="103:304" ph="{...}" />
+            <marker date="1529095129000" expanded="true" signature="134:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Core/Map Builders/GOMapObjects/GOTileObj.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <marker date="1529096344000" expanded="false" signature="6:156" ph="..." />
+            <marker date="1529096344000" expanded="true" signature="174:16692" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="217:16690" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="725:787" ph="{...}" />
+            <marker date="1529096344000" expanded="false" signature="1985:3821" ph="Constructors" />
+            <marker date="1529096344000" expanded="true" signature="2356:3513" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="3601:3807" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="3624:3769" ph="{...}" />
+            <marker date="1529096344000" expanded="false" signature="3825:4015" ph="static" />
+            <marker date="1529096344000" expanded="true" signature="3923:4001" ph="{...}" />
+            <marker date="1529096344000" expanded="false" signature="4019:11928" ph="Terrain" />
+            <marker date="1529096344000" expanded="true" signature="4064:4200" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="4237:4521" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="4341:4373" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="4402:4499" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="4562:9214" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="5231:6015" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="5284:6010" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="5710:5886" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="6076:7063" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="6130:7058" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="6211:6330" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="6397:6548" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="6632:6782" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="6852:7041" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="7245:9030" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="7304:9025" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="8021:8146" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="8391:8697" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="8481:8619" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="8788:9019" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="8878:9012" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="9309:9601" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="9312:9527" ph="/* point = local.position + local.rotation * Vector3.Scale (Vector3.one, point); ... */" />
+            <marker date="1529096344000" expanded="true" signature="9634:9779" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="9719:9754" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="9829:9945" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="9996:10182" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="10184:10444" ph="/* public Vector3 rayAltitudeToPoint (Vector3 point) { ... */" />
+            <marker date="1529096344000" expanded="true" signature="10498:10803" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="10853:11044" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="10988:11018" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="11087:11293" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="11341:11664" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="11729:11914" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="11800:11846" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="11867:11893" ph="{...}" />
+            <marker date="1529096344000" expanded="false" signature="11932:14645" ph="Load Data" />
+            <marker date="1529096344000" expanded="true" signature="11985:12129" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12028:12109" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12202:12687" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12235:12272" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12315:12683" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12391:12676" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12433:12595" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12517:12588" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12596:12670" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12745:13228" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12776:12799" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12842:13166" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12915:13159" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="12957:13098" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13041:13091" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13099:13153" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13265:13412" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13309:13392" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13450:13602" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13494:13582" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13646:13872" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13735:13852" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13916:14068" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="13960:14048" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="14114:14269" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="14159:14249" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="14313:14631" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="14335:14567" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="14431:14516" ph="{...}" />
+            <marker date="1529096344000" expanded="false" signature="14649:15856" ph="Utils" />
+            <marker date="1529096344000" expanded="true" signature="14718:15605" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="14791:15601" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="14807:15132" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="15198:15319" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="15277:15313" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="15335:15596" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="15637:15724" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="15755:15842" ph="{...}" />
+            <marker date="1529096344000" expanded="false" signature="15860:16687" ph="Debug" />
+            <marker date="1529096344000" expanded="true" signature="15909:16673" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="16113:16371" ph="{...}" />
+            <marker date="1529096344000" expanded="true" signature="16373:16668" ph="/* Spheres ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/API/Implementations/Models/MapMarker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <folding>
+            <marker date="1529098646000" expanded="true" signature="6:34" ph="..." />
+            <marker date="1529098646000" expanded="true" signature="81:952" ph="{...}" />
+            <marker date="1529098646000" expanded="true" signature="110:950" ph="{...}" />
+            <marker date="1529098646000" expanded="true" signature="355:473" ph="{...}" />
+            <marker date="1529098646000" expanded="true" signature="683:944" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <marker date="1529095102000" expanded="false" signature="6:106" ph="..." />
+            <marker date="1529095102000" expanded="true" signature="138:683" ph="{...}" />
+            <marker date="1529095102000" expanded="true" signature="351:437" ph="{...}" />
+            <marker date="1529095102000" expanded="true" signature="493:681" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Hugapup/Scripts/Manager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <marker date="1529095124000" expanded="false" signature="6:77" ph="..." />
+            <marker date="1529095124000" expanded="true" signature="115:585" ph="{...}" />
+            <marker date="1529095124000" expanded="true" signature="180:317" ph="{...}" />
+            <marker date="1529095124000" expanded="true" signature="258:311" ph="{...}" />
+            <marker date="1529095124000" expanded="true" signature="365:476" ph="{...}" />
+            <marker date="1529095124000" expanded="true" signature="527:583" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD697842-2995-4C31-B707-2F79E4886BE6/d8/383944b0/MonoBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD697842-2995-4C31-B707-2F79E4886BE6/c3/f272d928/SetupCoroutine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/ThirdParty/GO Map - 3D Map For AR Gaming/Demo/Scripts/GOPlaces.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <marker date="1529100993000" expanded="false" signature="6:359" ph="..." />
+            <marker date="1529100993000" expanded="true" signature="46:273" ph="/* This class uses Google Places webservice API. ... */" />
+            <marker date="1529100993000" expanded="true" signature="377:2335" ph="{...}" />
+            <marker date="1529100993000" expanded="true" signature="420:2333" ph="{...}" />
+            <marker date="1529100993000" expanded="true" signature="799:870" ph="{...}" />
+            <marker date="1529100993000" expanded="true" signature="908:1099" ph="{...}" />
+            <marker date="1529100993000" expanded="true" signature="928:1095" ph="{...}" />
+            <marker date="1529100993000" expanded="true" signature="1174:2327" ph="{...}" />
+            <marker date="1529100993000" expanded="true" signature="1636:2315" ph="{...}" />
           </folding>
         </state>
       </provider>

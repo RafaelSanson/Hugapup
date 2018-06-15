@@ -21,6 +21,8 @@ namespace GoMap {
 		public float worldScale = 1;
 		public List<Vector3> vertices;
 
+		public float Radius => diagonalLenght / 2;
+		
 		public GOStreetnamesSettings streetNames;
 
 		public GoMap.GOMap.GOMapType mapType;
