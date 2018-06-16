@@ -213,7 +213,7 @@ Material:
     - _specularpower: 0
     - _tiling: 0.86
     m_Colors:
-    - _Color: {r: 0.20550598, g: 0.466, b: 0.466, a: 1}
+    - _Color: {r: 0.5287613, g: 0.5234717, b: 0.6037736, a: 1}
     - _EmissionColor: {r: 0.9843137, g: 0.9607843, b: 0.60784316, a: 1}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _grasscolor1: {r: 0.58823526, g: 0.29411763, b: 0.29411763, a: 1}

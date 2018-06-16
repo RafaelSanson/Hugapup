@@ -247,6 +247,7 @@
             </e>
           </e>
         </e>
+        <e p="RotateAround.cs" t="Include" />
         <e p="ThirdParty" t="Include">
           <e p="GO Map - 3D Map For AR Gaming" t="Include">
             <e p="Core" t="Include">
