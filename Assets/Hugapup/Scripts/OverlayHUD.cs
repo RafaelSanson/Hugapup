@@ -1,4 +1,5 @@
-﻿using Hugapup.API.Tests.Editor.Boundaries;
+﻿using Hugapup.API.Implementations.Models;
+using Hugapup.Scripts;
 using UnityEngine;
 
 public class OverlayHUD : MonoBehaviour {
@@ -8,6 +9,7 @@ public class OverlayHUD : MonoBehaviour {
 	{
 		var coordinates = Manager.Instance.GetCurrentCoordinates();
 		var marker = MapMarker.FromCoordinates(coordinates);
+		marker.Title = "Teste de implementação 1";
 
 		Manager.Instance.CreateMapMarker(marker);
 	}

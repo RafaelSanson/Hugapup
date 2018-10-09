@@ -1,18 +1,17 @@
 ﻿using GoShared;
-using UnityEngine;
 
-namespace Hugapup.API.Tests.Editor.Boundaries
+namespace Hugapup.API.Implementations.Models
 {
     public class MapMarker
     {
-        private long Timestamp { get; set; }
-        private double Y { get; set; }
-        private double X { get; set; }
-        public string Name { get; set; }
+        public long Timestamp;
+        public double Y;
+        public double X;
+        public string Title;
 
-        public MapMarker(string name, double x, double y, long timestamp)
+        public MapMarker(string title, double x, double y, long timestamp)
         {
-            Name = name;
+            Title = title;
             X = x;
             Y = y;
             Timestamp = timestamp;
@@ -21,10 +20,10 @@ namespace Hugapup.API.Tests.Editor.Boundaries
         public static MapMarker FromCoordinates(Coordinates coordinates) => new MapMarker("New marker",
             coordinates.latitude, coordinates.longitude, default(long));
 
-        public string toJson()
+        public string ToJson()
         {
             var json =
-                $"('location': ('lat': {X},'lng': {Y}), 'accuracy': 50, 'name': 'hugapup', 'types': ['other'])";
+                $"('title': '{Title}', 'x': '{X}', 'y': '{Y}', 'timestamp': '{Timestamp}')";
             json = json.Replace("(", "{").Replace(")", "}").Replace("'", "\"");
             return json;
         }

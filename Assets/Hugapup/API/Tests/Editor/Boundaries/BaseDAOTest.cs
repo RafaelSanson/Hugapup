@@ -1,5 +1,6 @@
 ﻿using Firebase;
 using Firebase.Unity.Editor;
+using Hugapup.API.Implementations.Models;
 using NUnit.Framework;
 using UnityEngine;
 
@@ -36,7 +37,7 @@ namespace Hugapup.API.Tests.Editor.Boundaries
                 }
             });
 
-            await baseDao.Retrieve("markers", mapMarker.Name).ContinueWith(task =>
+            await baseDao.Retrieve("markers", mapMarker.Title).ContinueWith(task =>
             {
                 if (task.IsFaulted)
                 {
@@ -44,7 +45,7 @@ namespace Hugapup.API.Tests.Editor.Boundaries
                 else if (task.IsCompleted)
                 {
                     var snapshot = task.Result;
-                    var filtereDataSnapshot = snapshot.Child("markers").Child(mapMarker.Name);
+                    var filtereDataSnapshot = snapshot.Child("markers").Child(mapMarker.Title);
                     var json = filtereDataSnapshot.GetRawJsonValue();
                     retrievedMapMarker = (MapMarker) JsonUtility.FromJson(json, typeof(MapMarker));
                 }

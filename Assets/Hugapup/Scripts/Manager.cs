@@ -1,28 +1,32 @@
 ﻿using GoShared;
-using Hugapup.API.Tests.Editor.Boundaries;
+using Hugapup.API.Implementations.Models;
 using UnityEngine;
 
-public class Manager : MonoBehaviour
+namespace Hugapup.Scripts
 {
-    public static Manager Instance;
+    public class Manager : MonoBehaviour
+    {
+        public static Manager Instance;
 	
-    private void Start()
-    {
-        if (Instance == null)
-            Instance = this;
-        else
+        private void Start()
         {
-            Destroy(gameObject);
+            if (Instance == null)
+                Instance = this;
+            else
+            {
+                Destroy(gameObject);
+            }
         }
-    }
 
-    public Coordinates GetCurrentCoordinates()
-    {
-        return GameObject.Find("LocationManager").GetComponent<LocationManager>().currentLocation;
-    }
+        public Coordinates GetCurrentCoordinates()
+        {
+            return GameObject.Find("LocationManager").GetComponent<LocationManager>().currentLocation;
+        }
 
-    public void CreateMapMarker(MapMarker marker)
-    {
-        Repository.CreateMapMarker(marker);
+        public void CreateMapMarker(MapMarker marker)
+        {
+            if(Repository.Instance != null)
+                Repository.Instance.CreateMapMarker(marker);
+        }
     }
 }

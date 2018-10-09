@@ -1,4 +1,4 @@
-﻿namespace Hugapup.API.Implementations.Models
+﻿namespace Hugapup.API.Implementations.Model
 {
     public class User
     {

@@ -1,23 +1,45 @@
 ﻿using System.Collections;
 using System.Text;
-using Hugapup.API.Tests.Editor.Boundaries;
+using Hugapup.API.Implementations.Models;
 using UnityEngine;
+#pragma warning disable 618
 
-public static class Repository
+namespace Hugapup.Scripts
 {
-    private static string _googlePlacesUrl =
-        "https://maps.googleapis.com/maps/api/place/add/json?key=AIzaSyBDtpM_zZ2oiXKDCYqsztR3_GMVcXVd5tk";
-	
-    public static void CreateMapMarker(MapMarker marker)
+    public class Repository : MonoBehaviour
     {
-        var json = marker.toJson();
-        post(_googlePlacesUrl, json);
-    }
+        private static string _stitchUrl =
+            "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/hugapupbackend-nrlaq/service/HugapupBackendHTTP/incoming_webhook/createEvent";
+
+        public static Repository Instance;
+
+
+        private void Start()
+        {
+            if (Instance == null)
+                Instance = this;
+            else
+            {
+                Destroy(gameObject);
+            }
+        }
 	
-    private static void post(string url, string json)
-    {
-        var postHeader = new Hashtable {{"Content-Type", "application/json"}};
-        var formData = Encoding.UTF8.GetBytes(json);
-        new WWW(url, formData, postHeader);
+        public void CreateMapMarker(MapMarker marker)
+        {
+            var json = marker.ToJson();
+            StartCoroutine(Post(_stitchUrl, json));
+        }
+	
+        private static IEnumerator Post(string url, string json)
+        {
+            var postHeader = new Hashtable {{"Content-Type", "application/json"}};
+            var formData = Encoding.UTF8.GetBytes(json);
+            using (var www = new WWW(url, formData, postHeader))
+            {
+                yield return www;
+                var result = Encoding.UTF8.GetString(www.bytes);
+                Debug.Log(result);
+            }
+        }
     }
 }

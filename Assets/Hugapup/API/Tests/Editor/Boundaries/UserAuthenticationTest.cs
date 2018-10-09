@@ -1,6 +1,6 @@
 ﻿using Firebase.Auth;
 using Hugapup.API.Implementations.Boundaries;
-using Hugapup.API.Implementations.Models;
+using Hugapup.API.Implementations.Model;
 using NUnit.Framework;
 
 namespace Hugapup.API.Tests.Editor.Boundaries

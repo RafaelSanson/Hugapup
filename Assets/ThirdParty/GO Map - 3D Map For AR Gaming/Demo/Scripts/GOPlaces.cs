@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Collections;
 
 //This class uses Google Places webservice API. 
@@ -9,6 +10,7 @@ using GoShared;
 using System.Linq;
 using MiniJSON;
 using System.Collections.Generic;
+using Hugapup.Scripts;
 
 
 namespace GoMap
@@ -44,8 +46,7 @@ namespace GoMap
 		
 
 		private IEnumerator NearbySearch (Coordinates center, float radius) {
-			var url =
-				$"{NearbySearchUrl}location={center.latitude},{center.longitude}&radius={radius}&type={Type}&key={GoogleApIkey}&keyword={Keyword}";
+			const string url = "https://webhooks.mongodb-stitch.com/api/client/v2.0/app/hugapupbackend-nrlaq/service/HugapupBackendHTTP/incoming_webhook/getEvents";
 
 			var www = new WWW(url);
 			yield return www;
@@ -53,18 +54,18 @@ namespace GoMap
 			if (!string.IsNullOrEmpty(www.error)) yield break;
 			
 			var response = www.text;
-			var deserializedResponse = (IDictionary)Json.Deserialize (response);
-
-			var results = (IList)deserializedResponse ["results"];
+			var results = (IList)Json.Deserialize (response);
 
 			foreach (IDictionary result in results) {			
-				var placeID = (string)result["place_id"];
-
-				if (_markers.ContainsKey(placeID) && _markers[placeID] != null) continue;
-
-				var location = (IDictionary) ((IDictionary) result["geometry"])["location"];
-				var lat = (double) location["lat"];
-				var lng = (double) location["lng"];
+				var idContainer = (IDictionary) result["_id"];
+				var id = idContainer["$oid"].ToString();
+				var title = (string) result["title"];
+				
+				if (_markers.ContainsKey(id) && _markers[id] != null) continue;
+				if (result["x"] == null || result["y"] == null) continue;
+				
+				var lat = double.Parse(result["x"].ToString(), System.Globalization.CultureInfo.InvariantCulture);
+				var lng = double.Parse(result["y"].ToString(), System.Globalization.CultureInfo.InvariantCulture);
 				var coordinates = new Coordinates(lat, lng, 0);
 				
 				var place = Instantiate(Prefab);
@@ -72,12 +73,13 @@ namespace GoMap
 
 				place.transform.localPosition = position;
 				place.transform.SetParent(transform);
-				place.name = placeID;
+				place.name = title;
 
-				if (_markers.Contains(placeID))
-					_markers[placeID] = place;
+				if (_markers.Contains(id))
+					_markers[id] = place;
 				else
-					_markers.Add(placeID, place);
+					_markers.Add(id, place);
+					Debug.Log($"O evento [{place.name}] foi adicionado ao mapa!");
 			}
 			
 			

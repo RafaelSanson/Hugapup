@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Firebase.Auth;
-using Hugapup.API.Implementations.Models;
+using Hugapup.API.Implementations.Model;
 
 namespace Hugapup.API.Implementations.Boundaries
 {
