@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using EventHandling;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace GoMap {
 
@@ -8,7 +10,7 @@ namespace GoMap {
 
 		public IDictionary placeInfo; 
 		public SpriteRenderer spriteRenderer;
-		public GOPlaces goPlaces;
+		[FormerlySerializedAs("goPlaces")] public EventMarkerView EventMarkerView;
 
 		Sprite texture;
 
@@ -33,16 +35,16 @@ namespace GoMap {
 
 		public IEnumerator getTextureWithUrl (string url) {
 
-			if (goPlaces.IconsCache.Contains(url)) {
-				texture = (Sprite)goPlaces.IconsCache [url];
+			if (EventMarkerView.IconsCache.Contains(url)) {
+				texture = (Sprite)EventMarkerView.IconsCache [url];
 				spriteRenderer.sprite = texture;
 				yield break;
 			}
 
 			yield return StartCoroutine (DownloadIcon (url));
 			spriteRenderer.sprite = texture;
-			if (!goPlaces.IconsCache.Contains (url)) {
-				goPlaces.IconsCache.Add (url, texture);
+			if (!EventMarkerView.IconsCache.Contains (url)) {
+				EventMarkerView.IconsCache.Add (url, texture);
 			}
 			yield return null;
 		}
