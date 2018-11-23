@@ -5,11 +5,11 @@ using UnityEngine;
 namespace HUD
 {
     [RequireComponent(typeof(Animator))]
-    public class MasterUi : MonoBehaviour
+    public class MasterUI : MonoBehaviour
     {    
         private Animator _myAnimator;
         public static EventMarker CurrentEventMarker;
-        public static MasterUi Instance;
+        public static MasterUI Instance;
         
         private void Start()
         {
@@ -34,21 +34,17 @@ namespace HUD
             _myAnimator.SetBool("ShowDisplayEvent", true);
         }
 
-        public void CancelEventCreator()
+        public void CloseWindows()
         {
             CurrentEventMarker = null;
-            EndEventCreator();
+            _myAnimator.SetBool("ShowCreateEvent", false);
+            _myAnimator.SetBool("ShowDisplayEvent", false);
         }
 
         public void ConfirmEventCreator()
         {
             Manager.Instance.CreateMapMarker(CurrentEventMarker);
-            EndEventCreator();
-        }
-
-        private void EndEventCreator()
-        {
-            _myAnimator.SetBool("ShowCreateEvent", false);
+            CloseWindows();
         }
     }
 }

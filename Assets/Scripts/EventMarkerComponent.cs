@@ -1,4 +1,5 @@
 ﻿using API.Model;
+using HUD;
 using UnityEngine;
 
 public class EventMarkerComponent : MonoBehaviour
@@ -14,6 +15,12 @@ public class EventMarkerComponent : MonoBehaviour
 	public Material DogMaterial;
 	public Material CatMaterial;
 	public Material OtherMaterial;
+
+	private void OnMouseDown()
+	{
+		MasterUI.CurrentEventMarker = _eventMarker;
+		MasterUI.Instance.StartEventDisplay();
+	}
 
 	public void SetMarker(EventMarker eventMarker)
 	{

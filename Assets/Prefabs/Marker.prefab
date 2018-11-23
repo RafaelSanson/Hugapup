@@ -55,6 +55,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4086793009662848}
   - component: {fileID: 114030786866543498}
+  - component: {fileID: 135432381864219286}
   m_Layer: 0
   m_Name: Marker
   m_TagString: Untagged
@@ -72,7 +73,6 @@ GameObject:
   - component: {fileID: 4324303691744330}
   - component: {fileID: 33446541853374238}
   - component: {fileID: 23581516163202898}
-  - component: {fileID: 136917540182090396}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -87,7 +87,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1685350045539934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -63.385754, y: -5.591713, z: -74.58273}
+  m_LocalPosition: {x: 2.742218, y: 0, z: 24.25753}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4324303691744330}
@@ -295,16 +295,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Velocity: 25
---- !u!136 &136917540182090396
-CapsuleCollider:
+--- !u!135 &135432381864219286
+SphereCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1891204877447844}
+  m_GameObject: {fileID: 1685350045539934}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Radius: 15
+  m_Center: {x: 0, y: 15, z: 0}

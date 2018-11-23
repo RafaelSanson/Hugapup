@@ -15,7 +15,7 @@ public class CreateEventHandler : MonoBehaviour {
 	
 	private void OnValueChanged(Dropdown dropdown, DropdownType dropdownType)
 	{
-		var currentEventMarker = MasterUi.CurrentEventMarker;
+		var currentEventMarker = MasterUI.CurrentEventMarker;
 		if (currentEventMarker == null) return;
 
 		switch (dropdownType)
