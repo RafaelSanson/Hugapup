@@ -8,6 +8,7 @@ namespace API.Model
     public class EventMarker
     {
         public string Id;
+        public string PreviousId;
         public long Timestamp;
         public double Y;
         public double X;
@@ -21,6 +22,7 @@ namespace API.Model
         public static EventMarker FromCoordinates(Coordinates coordinates) => new EventMarker
         {
             Id = string.Empty,
+            PreviousId = string.Empty,
             Title = "New event",
             X = coordinates.latitude,
             Y = coordinates.longitude,
@@ -89,14 +91,35 @@ namespace API.Model
                 return null;
             }
 
+            try
+            {
+                eventMarker.PreviousId = result["previousId"].ToString();
+            }
+            catch (Exception)
+            {
+                eventMarker.PreviousId = string.Empty;
+            }
+            
             return eventMarker;
         }
         public string ToJson()
         {
             var json =
-                $"('title': '{Title}', 'x': '{X}', 'y': '{Y}', 'timestamp': '{Timestamp}', 'animal': '{Animal}', 'place': '{Place}', 'event': '{Event}', 'owner': '{Owner}', 'severity': '{Severity}')";
+                $"('title': '{Title}', 'previousId': '{PreviousId}', 'x': '{X}', 'y': '{Y}', 'timestamp': '{Timestamp}', 'animal': '{Animal}', 'place': '{Place}', 'event': '{Event}', 'owner': '{Owner}', 'severity': '{Severity}')";
             json = json.Replace("(", "{").Replace(")", "}").Replace("'", "\"");
             return json;
+        }
+
+        public static EventMarker FromCurrentEvent(Coordinates coordinates, EventMarker currentEventMarker)
+        {
+            var myMarker = FromCoordinates(coordinates);
+            myMarker.Animal = currentEventMarker.Animal;
+            myMarker.Place =  currentEventMarker.Place;
+            myMarker.Event =  currentEventMarker.Event;
+            myMarker.Owner = currentEventMarker.Owner;
+            myMarker.Severity = currentEventMarker.Severity;
+            myMarker.PreviousId = currentEventMarker.Id;
+            return myMarker;
         }
     }
 }

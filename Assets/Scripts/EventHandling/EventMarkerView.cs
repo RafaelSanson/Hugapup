@@ -11,14 +11,27 @@ using UnityEngine;
 namespace EventHandling
 {
 
-    public class EventMarkerView : MonoBehaviour {
+    public class EventMarkerView : MonoBehaviour
+    {
+
+        public static EventMarkerView Instance;
+        
         public EventMarkerComponent EventPrefab;
 
         private Hashtable _markers;
 
+
+     
+        
         [HideInInspector] public IDictionary IconsCache = new Dictionary <string,Sprite>();
 
-        private void Start () {
+        private void Start ()
+        {
+            if (Instance != null)
+                Destroy(this);
+            else
+                Instance = this;
+            
             _markers = new Hashtable();
             StartCoroutine(RefreshTiles());
         }
@@ -64,7 +77,13 @@ namespace EventHandling
                     _markers.Add(eventMarker.Id, eventMarkerPrefab);
                 }
             }
-			
+        }
+
+        public EventMarkerComponent GetEventMarkerComponent(string id)
+        {
+            if(_markers.ContainsKey(id))
+                return _markers[id] as EventMarkerComponent;
+            return null;
         }
 		
     }

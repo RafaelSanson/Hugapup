@@ -5,8 +5,23 @@ using UnityEngine.UI;
 
 public enum DropdownType { Animal, Place, Event, Owner, Severity}
 
-public class CreateEventHandler : MonoBehaviour {
+public class CreateEventHandler : MonoBehaviour
+{
+	public Dropdown DropdownAnimal, DropdownPlace, DropdownEvent, DropdownOwner, DropdownSeverity;
+	public static CreateEventHandler Instance;
 
+	public void Start()
+	{
+		if(Instance != null)
+			Destroy(this);
+		else
+		{
+			Instance = this;
+		}
+	}
+	
+	
+	
 	public void OnAnimalValueChanged(Dropdown dropdown) => OnValueChanged(dropdown, DropdownType.Animal);
 	public void OnPlaceValueChanged(Dropdown dropdown) => OnValueChanged(dropdown, DropdownType.Place);
 	public void OnEventValueChanged(Dropdown dropdown) => OnValueChanged(dropdown, DropdownType.Event);
@@ -38,5 +53,16 @@ public class CreateEventHandler : MonoBehaviour {
 			default:
 				throw new ArgumentOutOfRangeException(nameof(dropdownType), dropdownType, null);
 		}
+	}
+
+	public void SetPreviousValue()
+	{
+		if (MasterUI.CurrentEventMarker == null) return;
+		
+		DropdownAnimal.value = MasterUI.CurrentEventMarker.Animal;
+		DropdownPlace.value =  MasterUI.CurrentEventMarker.Place;
+		DropdownEvent.value =  MasterUI.CurrentEventMarker.Event;
+		DropdownOwner.value =  MasterUI.CurrentEventMarker.Owner;
+		DropdownSeverity.value =  MasterUI.CurrentEventMarker.Severity;
 	}
 }

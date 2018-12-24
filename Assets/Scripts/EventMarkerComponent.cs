@@ -1,4 +1,6 @@
-﻿using API.Model;
+﻿using System;
+using API.Model;
+using EventHandling;
 using HUD;
 using UnityEngine;
 
@@ -16,10 +18,19 @@ public class EventMarkerComponent : MonoBehaviour
 	public Material CatMaterial;
 	public Material OtherMaterial;
 
+	public Electric ElectricPrefab;
+	private Electric _electricChild;
+
 	private void OnMouseDown()
 	{
 		MasterUI.CurrentEventMarker = _eventMarker;
 		MasterUI.Instance.StartEventDisplay();
+	}
+
+	private void Update()
+	{
+		if(_electricChild == null)
+			CreateEventBinding();
 	}
 
 	public void SetMarker(EventMarker eventMarker)
@@ -37,6 +48,19 @@ public class EventMarkerComponent : MonoBehaviour
 
 		var material = GetAnimalMaterial(_eventMarker.Animal);
 		AnimalRenderer.material = material;
+	}
+
+	private void CreateEventBinding()
+	{
+		if (string.IsNullOrEmpty(_eventMarker.PreviousId)) return;
+
+		var otherMarker = EventMarkerView.Instance.GetEventMarkerComponent(_eventMarker.PreviousId);
+		
+		if(otherMarker == null) return;
+
+		_electricChild = Instantiate(ElectricPrefab, transform);
+		_electricChild.transformPointA = transform;
+		_electricChild.transformPointB = otherMarker.transform;
 	}
 
 	private Material GetAnimalMaterial(int animal)

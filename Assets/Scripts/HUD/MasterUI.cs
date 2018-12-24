@@ -46,5 +46,16 @@ namespace HUD
             Manager.Instance.CreateMapMarker(CurrentEventMarker);
             CloseWindows();
         }
+
+        public void UpdateEvent()
+        {
+            var coordinates = Manager.GetCurrentCoordinates();
+            CurrentEventMarker = EventMarker.FromCurrentEvent(coordinates, CurrentEventMarker);
+            
+            _myAnimator.SetBool("ShowCreateEvent", true);
+            _myAnimator.SetBool("ShowDisplayEvent", false);
+
+            CreateEventHandler.Instance.SetPreviousValue();
+        }
     }
 }

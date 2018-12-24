@@ -283,6 +283,8 @@ MonoBehaviour:
   DogMaterial: {fileID: 2100000, guid: 998ee2fb5bb2f95449f0057cdc89c211, type: 2}
   CatMaterial: {fileID: 2100000, guid: eb91ef0a96163d04c854c4566607b4c9, type: 2}
   OtherMaterial: {fileID: 0}
+  ElectricPrefab: {fileID: 114566843368348512, guid: 0277cef4fb38a8b4ab9387cb80f9ed66,
+    type: 2}
 --- !u!114 &114343900656222104
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\rafas\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\rafas\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_hugapup.1173716441.00" t="ExcludeRecursive" />
-    <e p="D:\Users\rafas\Desktop\Hugapup" t="IncludeRecursive">
+    <e p="C:\Users\Azure\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Azure\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Hugapup.-1103176609.00" t="ExcludeRecursive" />
+    <e p="E:\Hugapup" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -28,6 +28,7 @@
           </e>
           <e p="CreateEventHandler.cs" t="Include" />
           <e p="DisplayEventHandler.cs" t="Include" />
+          <e p="Electric.cs" t="Include" />
           <e p="EventHandling" t="Include">
             <e p="EventMarkerView.cs" t="Include" />
           </e>

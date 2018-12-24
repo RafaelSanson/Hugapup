@@ -5,10 +5,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DisplayEventHandler : MonoBehaviour
-{
+{	
 	public Dropdown DropdownAnimal, DropdownPlace, DropdownEvent, DropdownOwner, DropdownSeverity;
 	
-	private void FixedUpdate()
+	public void Update()
 	{
 		if (MasterUI.CurrentEventMarker == null) return;
 		
@@ -18,4 +18,6 @@ public class DisplayEventHandler : MonoBehaviour
 		DropdownOwner.value =  MasterUI.CurrentEventMarker.Owner;
 		DropdownSeverity.value =  MasterUI.CurrentEventMarker.Severity;
 	}
+	
+	
 }
